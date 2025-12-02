@@ -11,7 +11,7 @@ FILE_CSV = 'dataset.csv'
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
     static_image_mode=True,
-    max_num_hands=2, # Wajib 2 untuk BISINDO
+    max_num_hands=2, # Wajib 2 untuk SIBI
     min_detection_confidence=0.5
 )
 
